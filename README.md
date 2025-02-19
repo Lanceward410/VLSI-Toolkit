@@ -35,6 +35,16 @@ Next, to use this VLSI-toolkit quick installation, you can run (via copy/paste i
     bash VLSI-toolkit.bash
 
 Note that everything in Linux is case sensitive.
+
+After the VLSI-toolkit.bash script runs, you will need to reboot Ubuntu, so go back to Windows Powershell:
+
+    wsl --shutdown
+
+And finally, re-open Ubuntu from the Windows App Store, and enter into the Ubuntu terminal:
+
+    cd ~/OpenLane
+    make
+
 ~
 
 Help with Magic: https://web02.gonzaga.edu/faculty/talarico/vlsi/magic.html
