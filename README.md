@@ -47,6 +47,8 @@ And finally, re-open Ubuntu from the Windows App Store, and enter into the Ubunt
 
 ~
 
+Windows WSL Documentation: https://learn.microsoft.com/en-us/windows/wsl/install
+
 Help with Magic: https://web02.gonzaga.edu/faculty/talarico/vlsi/magic.html
 
 Help with Xschem: http://repo.hu/projects/xschem/xschem_man/install_xschem.html
