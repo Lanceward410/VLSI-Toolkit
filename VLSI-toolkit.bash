@@ -14,7 +14,6 @@ cd ~/xschem-src
 make
 sudo make install
 ./configure --prefix=new/prefix/path
-cd xschem-2.7.0/src && ./xschem
 
 # OpenLane requires Docker
 sudo install -m 0755 -d /etc/apt/keyrings
