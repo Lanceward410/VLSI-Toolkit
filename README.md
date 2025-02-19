@@ -21,7 +21,7 @@ a username + password, just like you would on any new PC.
 should be done within the Ubuntu (Linux) terminal.
 
 When booting up Ubuntu/WSL, always run "sudo apt update" and "sudo apt upgrade",
-it prevents issues; kind of like flossing.
+it prevents issues; it is comparable to flossing.
 
 ~
 Next, to use this VLSI-toolkit quick installation, you can run (via copy/paste if you wish):
