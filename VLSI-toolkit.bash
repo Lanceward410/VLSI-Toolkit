@@ -7,13 +7,14 @@ sudo apt --fix-broken install
 sudo apt update
 sudo apt install build-essentials python3 python3-venv python3-pip python3-tk ca-certificates curl make git gedit mesa-utils xll-apps x11-utils bison flex txl tcl-dev tk tk-dev libxpm4 libxpm-dev xterm -y
 sudo apt install magic ngspice -y
-cd ~/xschem-src
 
 # Xschem installs from source code
+cd ~/xschem-src
 ./configure
 make
 sudo make install
 ./configure --prefix=new/prefix/path
+cd ~
 
 # OpenLane requires Docker
 sudo install -m 0755 -d /etc/apt/keyrings
