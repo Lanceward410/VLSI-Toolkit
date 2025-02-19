@@ -3,12 +3,12 @@ VLSI WSL Toolkit
 
 instructions for use:
 Either install WSL via Windows App store,
-Or in Windows Powershell, install via:
+Or in **Windows Powershell**, install via:
 
     wsl --install
 
 Then,
-Open Windows Powershell:
+Open **Windows Powershell**:
 
     wsl --update
     wsl --shutdown
