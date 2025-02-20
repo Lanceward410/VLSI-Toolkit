@@ -40,11 +40,3 @@ echo "Adding user to Docker group..."
 sudo groupadd -f docker
 sudo usermod -aG docker $USER
 exec newgrp docker
-
-echo "Cloning and updating OpenLane..."
-if [ ! -d "$HOME/OpenLane" ]; then
-    git clone https://github.com/The-OpenROAD-Project/OpenLane ~/OpenLane
-fi
-cd ~/OpenLane
-git pull
-make -j$(nproc)
