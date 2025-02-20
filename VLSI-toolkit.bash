@@ -32,6 +32,8 @@ sudo apt-get update
 sudo apt-get upgrade
 cd ~
 git clone https://github.com/The-OpenROAD-Project/OpenLane
+cd ~/OpenLane
+git pull
 
 # At this stage, you have to either reboot Ubuntu (if not running WSL),
 # Or enter Powershell on host and run   wsl --shutdown   and then you can
