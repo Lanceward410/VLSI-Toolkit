@@ -32,6 +32,7 @@ Next, to use this VLSI-toolkit quick installation, you can run (via copy/paste i
     cd ~
     git clone https://github.com/LanceWard410/VLSI-Toolkit.git
     cd ~/VLSI-Toolkit
+    git pull
     bash VLSI-toolkit.bash
 
 Note that everything in Linux is case sensitive.
