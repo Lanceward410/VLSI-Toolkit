@@ -37,14 +37,13 @@ Next, to use this VLSI-toolkit quick installation, you can run (via copy/paste i
 
 Note that everything in Linux is case sensitive.
 
-After the VLSI-toolkit.bash script runs, you will need to reboot Ubuntu, so go back to Windows Powershell:
+For general troubleshooting, in Powershell, you can use 'list' to view your current installed distros:
 
-    wsl --shutdown
+    wsl --list
 
-And finally, re-open Ubuntu from the Windows App Store, and enter into the Ubuntu terminal:
+And you can use 'unregister' to remove any of these. When following by 'wsl --install', this is akin to a factory reset:
 
-    cd ~/OpenLane
-    make
+    wsl --unregister
 
 ~
 
