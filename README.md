@@ -33,9 +33,14 @@ Next, to use this VLSI-toolkit quick installation, you can run (via copy/paste i
     git clone https://github.com/LanceWard410/VLSI-Toolkit.git
     cd ~/VLSI-Toolkit
     git pull
-    bash VLSI-toolkit.bash
+    bash toolkit1.bash
 
 Note that everything in Linux is case sensitive.
+Finally, run the second half of the installation script:
+
+    bash toolkit2.bash
+
+This just installs OpenLane.
 
 For general troubleshooting, in Powershell, you can use 'list' to view your current installed distros:
 
