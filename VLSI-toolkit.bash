@@ -19,8 +19,6 @@ echo "${GREEN}Installing Xschem...${DEFAULT}"
 if [ ! -d "$HOME/xschem-src" ]; then
     git clone https://github.com/StefanSchippers/xschem.git ~/xschem-src
 fi
-cd ~
-git clone https://github.com/StefanSchippers/xschem.git ~/xschem-src
 cd ~/xschem-src
 git pull
 ./configure --prefix=new/prefix/path
