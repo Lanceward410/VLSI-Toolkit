@@ -40,3 +40,8 @@ echo "Adding user to Docker group..."
 sudo groupadd -f docker
 sudo usermod -aG docker $USER
 exec newgrp docker
+
+cd ~/VLSI-Toolkit
+echo "Toolkit Part 1 installation complete!"
+echo "You may now progress to installing Toolkit Part 2"
+echo "(bash toolkit2.bash)"
