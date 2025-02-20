@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 set -e
 trap 'echo "Error on line $LINENO: $BASH_COMMAND" >&2' ERR
