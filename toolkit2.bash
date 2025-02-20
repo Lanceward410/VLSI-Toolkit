@@ -10,4 +10,4 @@ if [ ! -d "$HOME/OpenLane" ]; then
 fi
 cd ~/OpenLane
 git pull
-make -j$(nproc)
+make
