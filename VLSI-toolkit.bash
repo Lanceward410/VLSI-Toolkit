@@ -5,7 +5,7 @@
 sudo apt-get update && sudo apt-get upgrade -y
 sudo apt --fix-broken install
 sudo apt update
-sudo apt install build-essentials python3 python3-venv python3-pip python3-tk ca-certificates curl make git gedit mesa-utils xll-apps x11-utils bison flex txl tcl-dev tk tk-dev libxpm4 libxpm-dev xterm -y
+sudo apt install build-essential python3 python3-venv python3-pip python3-tk ca-certificates curl make git gedit mesa-utils x11-apps x11-utils bison flex tx1 tcl-dev tk tk-dev libxpm4 libxpm-dev xterm -y
 sudo apt install magic ngspice -y
 
 # Xschem installs from source code
